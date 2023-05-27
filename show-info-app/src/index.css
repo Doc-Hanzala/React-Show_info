@@ -1,0 +1,50 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: rgb(243, 194, 194);
+  text-transform: capitalize;
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+section {
+  width: 90vw;
+  max-width: 850px;
+  margin: 4rem auto;
+}
+
+h1 {
+  letter-spacing: 3px;
+}
+
+p {
+  letter-spacing: 3px;
+  line-height: 1.7;
+  margin-top: 2rem;
+}
+
+h2 {
+  letter-spacing: 4px;
+  color: gray;
+  margin: 1rem;
+}
+
+.spaces {
+  position: relative;
+  top: 10rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+input {
+  padding: 0.5rem;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  text-transform: capitalize;
+}
